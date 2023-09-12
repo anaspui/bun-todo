@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/htmx.org@1.9.5"></script>
+    <script src="https://unpkg.com/hyperscript.org@0.9.11"></script>
+    <script src="https://unpkg.com/htmx.org/dist/ext/json—enc.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <title>Bun Todo App</title>
+</head>
+<body>
+    <header class="container">
+        <hgroup>
+            <h1>Bun 1.0</h1>
+            <h2>A simple TODO application</h2>
+        </hgroup>
+    </header>
+    <main class="container">
+        <form>
+            <label for="todo">Bun TODO</label>
+            <input type="text" name="todo" id="todo" aria-label="Create Bun TODO" placeholder="New Bun TODO">
+            <button type="submit">Create Bun</button>
+        </form>
+        <section id="todos">
+
+        </section>
+    </main>
+</body>
+</html>
